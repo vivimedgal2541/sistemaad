@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 10% 80% 	10%;
+	grid-template-rows:  5vh 15vh 30vh 30vh 25vh 15vh;
+	grid-template-areas: "cabeçalho cabeçalho cabeçalho"
+	                     "menu titulo menulat"
+	                     "menu celulas menulat"
+	                     "menu tipos menulat"
+	                     "menu nomes menulat"
+	                     "rodape rodape rodape";
+	
+}
+.cabeçalho{
+	grid-area: cabeçalho;
+	background-color: #eb5e00;
+}
+.menu{
+	grid-area: menu;
+	background-color:#FF4500;
+}
+.titulo{
+	grid-area: titulo;
+	background-color:#FFDEAD;
+}
+.menulat{
+	grid-area: menulat;{
+
+	background-color:#008000;
+	
+}
+.celulas	grid-area: celulas;
+	background-color:#FF4500;
+}
+.tipos{
+	grid-area: tipos;
+	background-color:white;
+}
+.nomes{
+	grid-area: nomes;
+	background-color:white;
+}
+.rodape{
+	grid-area: rodape;
+	background-color:#eb5e00;
+}
+.dog{
+	 height:145px;
+	 right: 145px;
+	 margin-top: 20px;
+	 margin-left: 10px;
+	 float: left;
+}
+.cc{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.tex{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.pp{
+	font-size: 15px;
+	margin-top: 15px;
+}
+.tit{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 120px;
+}
+.adote{
+	height:160px;
+	right: 160px;
+	
+}
+.auau{
+	height:160px;
+	right: 160px;
+	
+}
+.doguinho{
+	height:160px;
+	right: 160px;
+	
+}
+.tipos{
+		display: flex;
+          flex-direction: row;
+          justify-content:space-around;
+}
+.nomes{
+	    display: flex;
+          flex-direction: row;
+          justify-content:space-around;
+}
+.cabeçalho{
+	    display: flex;
+          flex-direction: row;
+          justify-content:flex-end;
+}
+
+.r{
+    width: 45px;
+    height:45px;
+}
+.rodape{
+	    display: flex;
+          flex-direction: row;
+          justify-content:flex-start;
+}
+.dd{
+	 width:20px;
+    height:20px;
+}
+.mn{
+	width: 20px;
+	height: 20px;
+}
+@media (max-width: 800px){
+	.dd{
+		margin-left: 35px;
+		margin-top: 5px;
+	}
+	.l{
+		margin-left: 35px;
+		margin-top: 5px;
+	}
+	.tit{
+        margin-left: 25px;
+        margin-top: 25px;
+        float: left;
+	}
+	.dog{
+		margin-left: 120px;
+		margin-top: 25px;
+		float: left;
+	}
+	.cc{
+		margin-left: 25px;
+		margin-top: 180px;
+	}
+	.adote{
+		height: 48%;
+		width: 50%;
+		margin-left: 400px;
+		margin-top: 100px;
+	}
+	.auau{ height: 48%;
+		width: 50%;
+		margin-left:250px;
+		margin-top: 100px;
+		 }
+    .doguinho{
+    	height: 48%;
+		width: 50%;
+		margin-left: 300px;
+		margin-top: 100px;
+    }
+
+}

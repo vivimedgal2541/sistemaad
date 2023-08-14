@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 10% 80% 	10%;
+	grid-template-rows:  5vh 15vh 30vh 30vh 25vh 15vh;
+	grid-template-areas: "cabeçalho cabeçalho cabeçalho"
+	                     "menu titulo menulat"
+	                     "menu celulas menulat"
+	                     "menu tipos menulat"
+	                     "menu nomes menulat"
+	                     "rodape rodape rodape";
+	
+}
+.cabeçalho{
+	grid-area: cabeçalho;
+	background-color:#eb5e00;
+}
+.menu{
+	grid-area: menu;
+	background-color:#FF4500;
+}
+.titulo{
+	grid-area: titulo;
+	background-color:#FFDEAD;
+}
+.menulat{
+	grid-area: menulat;
+	background-color:#FF4500;
+	
+}
+.celulas{
+	grid-area: celulas;
+	background-color:#eb5e00;
+}
+.tipos{
+	grid-area: tipos;
+	background-color:white;
+}
+.nomes{
+	grid-area: nomes;
+	background-color:white;
+}
+.rodape{
+	grid-area: rodape;
+	background-color:#eb5e00;
+}
+.dd{
+	 width:20px;
+    height:20px;
+}
+.cabeçalho{
+	    display: flex;
+          flex-direction: row;
+          justify-content:flex-end;
+}
+.mn{
+	width: 20px;
+	height: 20px;
+}
+.r{
+    width: 45px;
+    height:45px;
+}
+.rodape{
+	    display: flex;
+          flex-direction: row;
+          justify-content:flex-start;
+}
+.tit{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 110px;
+}
+.dog{
+	 height:145px;
+	 right: 145px;
+	 margin-top: 20px;
+	 margin-left: 10px;
+	 float: left;
+}
+.celulas{
+	display: flex;
+          flex-direction: row;
+          justify-content:space-around;
+}
